@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/bluBloomie.png"/>
+    <title>Bloomie</title>
+</head>
+<body>
+    <section id="home">
+        <div class="navbar">
+            <nav>
+                <a href="index.html"><img src="img/logoBloomie.png" alt="Logo da Bloomie" id="logo"></a>
+    
+                <div class="navlinks">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#modobloomie">#ModoBloomie</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <img src="img/logoBloomie.png" alt="Logo da Bloomie" id="logoD">
+
+        <div class="text-container">
+            <div class="texts">
+                <h1 id="digitacao">Aqui, você planta o seu futuro<span style="color: #D1A503;">.</span></h1>
+                <p>Evolua com <span style="color: #1185E3;"><strong>oportunidades</strong></span> selecionadas para <span style="color: #1185E3;"><strong>você</strong></span>.</p>
+                <p>Na <span style="color: #D1A503;"><strong>Bloomie</strong></span>, você <span style="color: #0C5B9C;"><strong>floresce</strong></span> todo o seu <span style="color: #0C5B9C;"><strong>potencial</strong></span>.</p>
+                <a href="#modobloomie"><button>Faça parte!</button></a>
+            </div> 
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first" style="border: solid 0.15vw #0C5B9C;">
+                    <div class="slide-text text-center">
+                        <h1 style="color: #0C5B9C;">Bloomie é diferente<span style="color: #F2C935;">.</span></h1>
+                        <h3><strong>Rede social gratuita</strong>, que conecta o estudante à oportunidades <strong>brilhantes</strong>.</h3>
+                    </div>
+                </div>
+
+                <div class="slide" style="border: solid 0.15vw #F2C935;">
+                    <div class="slide-text text-center">
+                        <h1 style="color:  #F2C935;">Oportunidades personalizadas<span style="color: #0C5B9C;">.</span></h1>
+                        <h3>Nossa tecnologia encontra o que há <strong>de melhor</strong>  para o seu perfil.</h3>
+                    </div>
+                </div>
+
+                <div class="slide" style="border: solid 0.15vw #1185E3;">
+                    <div class="slide-text text-center">
+                        <h1 style="color:  #1185E3;">Conectar com estudantes<span style="color: #D1A503;">.</span></h1>
+                        <h3>Interaja e conheça outros <strong style="color: #1185E3;">Bloomiers</strong>, os <strong>líderes</strong> do amanhã.</h3>
+                    </div>
+                </div>
+
+                <div class="slide" style="border: solid 0.15vw #D1A503;">
+                    <div class="slide-text text-center">
+                        <h1 style="color: #D1A503;">Florescer o seu futuro<span style="color: #1185E3;">.</span></h1>
+                        <h3>Estágios, cursos gratuitos, processos seletivos... <br> <strong style="color: #D1A503;">Seu sucesso é real.</strong> </h3>
+                    </div>
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn btn-azulE"></label>
+                <label for="radio2" class="manual-btn btn-amareloC"></label>
+                <label for="radio3" class="manual-btn btn-azulC"></label>
+                <label for="radio4" class="manual-btn btn-amareloE"></label>
+            </div>
+        </div>
+    </section>
+
+    <section id="modobloomie">
+        <div class="left">
+            <h1>Plante seu futuro<span style="color: #D1A503;">.</span></h1>
+            <img src="img/bluBloomie.png" alt="Imagem da Blu, a flor da logo" id="bluD">
+            <h2 id="bluDtxt"><strong>Seja <span class="azul">B</span><span class="amarelo">loo</span><span class="azul">m</span><span class="amarelo">i</span><span class="azul">e</span>!</strong></h2>
+            <h2>Receba um aviso em nosso lançamento:</h2>
+
+            <div class="form-container">
+                <form action="salvar.php" method="POST">
+                    <input type="text" class="form-input" id="nome" name="name" placeholder="Seu nome" required><br>
+                    <input type="email" class="form-input" id="email" name="email" placeholder="Seu melhor e-mail" required><br>
+                    <input type="submit" class="form-submit" value="#ModoBloomie"></input>
+                </form>
+            </div>
+        </div>
+
+        <div class="right">
+            <img src="img/bluBloomie.png" alt="Imagem da Blu, a flor da logo">
+            <h2> <strong>Seja <span class="azul">B</span><span class="amarelo">loo</span><span class="azul">m</span><span class="amarelo">i</span><span class="amarelo">e</span></strong></h2>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
