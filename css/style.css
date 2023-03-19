@@ -328,6 +328,7 @@ nav ul li a:hover {
     width: 30vw;
     padding: 1.5vh 0;
     border-radius: 0.5vw;
+    cursor: pointer;
 }
 
 .left .form-container .form-input::placeholder {
